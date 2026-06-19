@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ladybug AP Stats Vocabulary</title>
+  <link rel="stylesheet" href="styles.css?v=20260619-header-ladybugs">
+</head>
+<body>
+  <section id="homeScreen" class="screen home-screen" aria-labelledby="home-title">
+    <div class="home-background-art" aria-hidden="true">
+      <img class="home-ladybug ladybug-one" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-two" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-three" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-four" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-five" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-six" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-seven" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-eight" src="assets/background-ladybug-cutout.png" alt="">
+    </div>
+    <div class="home-content">
+      <p class="subtitle home-subtitle">Bug-Themed AP Statistics Tools</p>
+      <h1 id="home-title">Ladybug AP Stats Vocabulary</h1>
+      <p class="home-lede">Choose a vocabulary tool.</p>
+
+      <div class="tool-choices">
+        <button id="teacherQuizletChoice" class="tool-card" type="button">
+          <img class="tool-illustration tool-image" src="assets/teacher-quizlet-ladybug-cutout.png?v=20260619-small" alt="A crayon-style ladybug taking a quiz at a desk">
+          <span class="tool-title">Teacher Quizlet</span>
+          <span class="tool-description">Generate random vocabulary terms for a quick classroom check.</span>
+        </button>
+
+        <button id="vocabularyIndexChoice" class="tool-card" type="button">
+          <img class="tool-illustration tool-image" src="assets/vocabulary-index-ladybug-cutout.png?v=20260619-small" alt="A crayon-style ladybug reading a vocabulary book with a magnifying glass">
+          <span class="tool-title">Vocabulary Index</span>
+          <span class="tool-description">Search and browse AP Statistics vocabulary terms.</span>
+        </button>
+
+        <button id="practiceFlashcardsChoice" class="tool-card" type="button">
+          <img class="tool-illustration tool-image" src="assets/practice-flashcards-ladybug-cutout.png?v=20260619-small" alt="A crayon-style ladybug studying flashcards at a desk">
+          <span class="tool-title">Practice Flashcards</span>
+          <span class="tool-description">Study vocabulary terms one card at a time.</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="teacherScreen" class="screen tool-screen" aria-label="Teacher Quizlet" hidden>
+    <div class="tool-background-art" aria-hidden="true">
+      <img class="home-ladybug ladybug-one" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-two" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-three" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-four" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-five" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-six" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-seven" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-eight" src="assets/background-ladybug-cutout.png" alt="">
+    </div>
+    <header class="site-header">
+      <img class="header-ladybug header-ladybug-small" src="assets/background-ladybug-cutout.png" alt="" aria-hidden="true" style="position:absolute;right:250px;top:-42px;width:105px;height:auto;opacity:0.2;pointer-events:none;z-index:1;transform:rotate(-18deg);filter:saturate(0.85);">
+      <img class="header-ladybug header-ladybug-large" src="assets/background-ladybug-cutout.png" alt="" aria-hidden="true" style="position:absolute;right:70px;top:28px;width:136px;height:auto;opacity:0.2;pointer-events:none;z-index:1;transform:rotate(17deg);filter:saturate(0.85);">
+      <div class="header-content">
+        <button class="back-home-button" type="button">Back to Home</button>
+        <p class="subtitle">Teacher Projection Mode</p>
+        <h1>Ladybug AP Stats Vocabulary</h1>
+        <p class="instruction">Write a complete-sentence definition for each term.</p>
+      </div>
+    </header>
+
+    <main class="app-layout">
+      <section class="controls" aria-labelledby="controls-heading">
+        <div class="section-heading-row">
+          <div>
+            <h2 id="controls-heading">Choose Sections</h2>
+            <p class="helper-text">Select one or more AP Statistics sections.</p>
+          </div>
+        </div>
+
+        <div id="sectionGroups" class="section-groups" aria-live="polite">
+          <p class="loading-message">Loading vocabulary...</p>
+        </div>
+
+        <div class="quiz-controls">
+          <label for="termCount">Number of terms</label>
+          <select id="termCount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+
+        <div class="button-row">
+          <button id="generateButton" type="button">Generate Quizlet</button>
+          <button id="revealButton" type="button" class="secondary-button" disabled>Reveal Definitions</button>
+        </div>
+
+        <p id="message" class="message" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="quizlet-area" aria-labelledby="quizlet-heading">
+        <div class="quizlet-header">
+          <h2 id="quizlet-heading">Quizlet Terms</h2>
+        </div>
+        <div id="termsList" class="terms-list empty-state">
+          <p>Select sections, choose a term count, and generate a classroom vocabulary check.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Created for AP Statistics at Saint Cecilia Academy
+    </footer>
+  </section>
+
+  <section id="vocabularyIndexScreen" class="screen tool-screen index-screen" aria-label="Vocabulary Index" hidden>
+    <div class="tool-background-art" aria-hidden="true">
+      <img class="home-ladybug ladybug-one" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-two" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-three" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-four" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-five" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-six" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-seven" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-eight" src="assets/background-ladybug-cutout.png" alt="">
+    </div>
+    <header class="site-header">
+      <img class="header-ladybug header-ladybug-small" src="assets/background-ladybug-cutout.png" alt="" aria-hidden="true" style="position:absolute;right:250px;top:-42px;width:105px;height:auto;opacity:0.2;pointer-events:none;z-index:1;transform:rotate(-18deg);filter:saturate(0.85);">
+      <img class="header-ladybug header-ladybug-large" src="assets/background-ladybug-cutout.png" alt="" aria-hidden="true" style="position:absolute;right:70px;top:28px;width:136px;height:auto;opacity:0.2;pointer-events:none;z-index:1;transform:rotate(17deg);filter:saturate(0.85);">
+      <div class="header-content">
+        <button class="back-home-button" type="button">Back to Home</button>
+        <p class="subtitle">Vocabulary Tool</p>
+        <h1 id="index-title">Vocabulary Index</h1>
+        <p class="instruction">Search and browse vocabulary terms by unit, section, concept, or definition.</p>
+      </div>
+    </header>
+
+    <main class="app-layout">
+      <section class="controls" aria-labelledby="index-filters-heading">
+        <h2 id="index-filters-heading">Filter Sections</h2>
+        <p class="helper-text">Choose the units or sections to include.</p>
+
+        <div id="indexSectionGroups" class="section-groups" aria-live="polite">
+          <p class="loading-message">Loading vocabulary...</p>
+        </div>
+      </section>
+
+      <section class="quizlet-area" aria-labelledby="index-results-heading">
+        <div class="quizlet-header">
+          <h2 id="index-results-heading">Vocabulary Results</h2>
+        </div>
+
+        <div class="index-search-row">
+          <label class="search-label" for="vocabSearch">Search vocabulary...</label>
+          <input id="vocabSearch" class="search-placeholder" type="search" placeholder="Search vocabulary...">
+          <button id="clearSearchButton" class="term-regenerate-button clear-search-button" type="button">Clear Search</button>
+        </div>
+
+        <p id="indexResultsCount" class="index-results-count" role="status" aria-live="polite"></p>
+        <div id="indexResultsList" class="index-results-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      Created for AP Statistics at Saint Cecilia Academy
+    </footer>
+  </section>
+
+  <section id="practiceFlashcardsScreen" class="screen tool-screen" aria-label="Practice Flashcards" hidden>
+    <div class="tool-background-art" aria-hidden="true">
+      <img class="home-ladybug ladybug-one" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-two" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-three" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-four" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-five" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-six" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-seven" src="assets/background-ladybug-cutout.png" alt="">
+      <img class="home-ladybug ladybug-eight" src="assets/background-ladybug-cutout.png" alt="">
+    </div>
+    <header class="site-header">
+      <img class="header-ladybug header-ladybug-small" src="assets/background-ladybug-cutout.png" alt="" aria-hidden="true" style="position:absolute;right:250px;top:-42px;width:105px;height:auto;opacity:0.2;pointer-events:none;z-index:1;transform:rotate(-18deg);filter:saturate(0.85);">
+      <img class="header-ladybug header-ladybug-large" src="assets/background-ladybug-cutout.png" alt="" aria-hidden="true" style="position:absolute;right:70px;top:28px;width:136px;height:auto;opacity:0.2;pointer-events:none;z-index:1;transform:rotate(17deg);filter:saturate(0.85);">
+      <div class="header-content">
+        <button class="back-home-button" type="button">Back to Home</button>
+        <p class="subtitle">Practice Mode</p>
+        <h1>Practice Flashcards</h1>
+        <p class="instruction">Choose sections and practice vocabulary one term at a time.</p>
+      </div>
+    </header>
+
+    <main class="app-layout">
+      <section class="controls" aria-labelledby="flashcard-filters-heading">
+        <h2 id="flashcard-filters-heading">Choose Sections</h2>
+        <p class="helper-text">Select one or more AP Statistics sections.</p>
+
+        <div id="flashcardSectionGroups" class="section-groups" aria-live="polite">
+          <p class="loading-message">Loading vocabulary...</p>
+        </div>
+      </section>
+
+      <section class="quizlet-area" aria-labelledby="flashcards-heading">
+        <div class="quizlet-header">
+          <h2 id="flashcards-heading">Practice Flashcards</h2>
+        </div>
+
+        <p id="flashcardMessage" class="message" role="status" aria-live="polite"></p>
+        <p id="flashcardProgress" class="index-results-count"></p>
+
+        <button id="flashcardCard" class="flashcard-card" type="button">
+          <span id="flashcardSideLabel" class="flashcard-side-label">Concept</span>
+          <span id="flashcardText" class="flashcard-text">Select at least one unit or section to practice.</span>
+        </button>
+
+        <div class="flashcard-controls">
+          <button id="previousFlashcardButton" class="secondary-button" type="button">Previous</button>
+          <button id="flipFlashcardButton" type="button">Flip Card</button>
+          <button id="nextFlashcardButton" class="secondary-button" type="button">Next</button>
+          <button id="shuffleFlashcardButton" class="term-regenerate-button" type="button">Shuffle Deck</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Created for AP Statistics at Saint Cecilia Academy
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
