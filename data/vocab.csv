@@ -1,0 +1,286 @@
+unit,section,concept,definition
+1,1.1,careful statistical claim,A careful statistical claim states what the data support without extending the conclusion beyond the sample or study design.
+1,1.1,categorical variable,"A categorical variable is a variable whose values are group labels, categories, or names. A categorical variable places each observational unit into one category or group label."
+1,1.1,data,Data are pieces of information collected about items or individuals.
+1,1.1,in context,"A statistical statement is written in context when it connects the statistical result to the real-world people, objects, variables, and question being studied."
+1,1.1,investigative question,"An investigative question tells what the study is trying to learn from data and should determine the population, variables, study type, and appropriate conclusion."
+1,1.1,observational unit,"An observational unit is the individual person, object, animal, or event from which data are collected."
+1,1.1,parameter,A parameter is a numerical summary or attribute that describes a population.
+1,1.1,population,A population is the entire group of items or individuals we want to learn about. The population should match the group named in the investigative question.
+1,1.1,quantitative variable,"A quantitative variable is a variable whose values are numerical measurements or counts, generally with units."
+1,1.1,sample,A sample is the smaller group or subset of the population from which data are actually collected.
+1,1.1,sample size,Sample size is the number of items or individuals in the sample.
+1,1.1,statistic,A statistic is a numerical summary or attribute that describes a sample.
+1,1.1,statistical process,"The statistical process is the cycle of asking a question, collecting data, analyzing data, and interpreting results."
+1,1.1,statistical question,A statistical question is a question that can be answered with data and anticipates variability in the data.
+1,1.1,statistical study,A statistical study is a study in which data are collected from a sample to answer an investigative question about a larger population.
+1,1.1,variability,Variability is the natural difference expected among observations in a data set.
+1,1.1,variable,A variable is a characteristic measured or recorded about each observational unit that may vary from one unit to another.
+1,1.2,bar graph,A bar graph displays categorical data by using separate bars to show the frequency or relative frequency for each category.
+1,1.2,careful categorical summary,"A careful categorical summary describes common categories, uncommon categories, and important proportions in context."
+1,1.2,categorical distribution,A categorical distribution describes how the observations are divided among the categories of a categorical variable.
+1,1.2,frequency,A frequency is the number of observations in a category.
+1,1.2,mode,The mode is the category or value with the greatest frequency.
+1,1.2,pie chart,A pie chart displays categorical data by showing each category as a part of the whole.
+1,1.3,center,Center describes a typical or middle value of a distribution.
+1,1.3,cluster,A cluster is a group of data values that are close together.
+1,1.3,distribution,A distribution shows the values of a variable and how often they occur.
+1,1.3,dotplot,A dotplot displays quantitative data by placing a dot above each observed value on a number line.
+1,1.3,gap,A gap is an interval with no observed data values between parts of a distribution.
+1,1.3,histogram,A histogram displays quantitative data by grouping values into intervals and using bars to show the frequency or relative frequency in each interval.
+1,1.3,outlier,An outlier is a data value that stands apart from the overall pattern of the distribution.
+1,1.3,roughly symmetric distribution,A roughly symmetric distribution has two sides that are approximately balanced around the center.
+1,1.3,shape,Shape describes the overall pattern of a distribution.
+1,1.3,skewed left distribution,A skewed left distribution has a tail that stretches toward smaller values.
+1,1.3,skewed right distribution,A skewed right distribution has a tail that stretches toward larger values.
+1,1.3,spread,Spread describes how much the data values vary.
+1,1.3,stem-and-leaf plot,A stem-and-leaf plot displays quantitative data by separating each value into a stem and a leaf while preserving individual data values.
+1,1.4,1.5 × IQR rule,The 1.5 x IQR rule identifies possible outliers below Q1 - 1.5(IQR) or above Q3 + 1.5(IQR).
+1,1.4,boxplot,A boxplot displays the five-number summary and may show possible outliers.
+1,1.4,comparison of distributions,"A comparison of distributions describes similarities and differences in shape, center, spread, and unusual features in context."
+1,1.4,first quartile,"The first quartile, Q1, is a value near the 25th percentile of an ordered quantitative data set."
+1,1.4,five-number summary,"The five-number summary consists of the minimum, Q1, median, Q3, and maximum."
+1,1.4,interquartile range,"The interquartile range, or IQR, is Q3 minus Q1. The interquartile range is a resistant measure of spread because it focuses on the middle half of the data."
+1,1.4,mean,The mean is the arithmetic average of a quantitative data set. The mean is a nonresistant measure of center because it is pulled in the direction of extreme values.
+1,1.4,median,The median is the middle value of an ordered quantitative data set. The median is a resistant measure of center because it is not strongly affected by extreme values.
+1,1.4,percentile,A percentile describes the percentage of observations at or below a value.
+1,1.4,quartiles,Quartiles divide an ordered quantitative data set into four approximately equal parts.
+1,1.4,range,The range is the maximum value minus the minimum value. Range is a measure of spread.
+1,1.4,resistant measure,A resistant measure is a statistic that is not strongly affected by outliers or skewness.
+1,1.4,standard deviation,The standard deviation measures the typical distance of data values from the mean. The standard deviation is a nonresistant measure of spread because it is affected by values far from the mean.
+1,1.4,third quartile,"The third quartile, Q3, is a value near the 75th percentile of an ordered quantitative data set."
+1,1.4,z-score,A z-score measures how many standard deviations a value is from the mean.
+1,1.5,appropriate conclusion,An appropriate conclusion is a claim that does not go beyond what the study design and data can support.
+1,1.5,association,An association is a relationship between variables in which values of one variable tend to occur with certain values of another variable.
+1,1.5,cause-and-effect conclusion,A cause-and-effect conclusion states that changes in one variable caused changes in another variable and requires a well-designed experiment.
+1,1.5,census,A census attempts to collect data from every member of the population.
+1,1.5,experiment,An experiment imposes treatments in order to measure a response.
+1,1.5,generalization,A generalization extends a conclusion from a sample to a larger population.
+1,1.5,observational study,An observational study observes individuals without imposing treatments.
+1,1.5,sample survey,A sample survey collects data from part of a population in order to learn about the whole population.
+1,1.5,study design,Study design is the plan for how data will be collected so that the method matches the investigative question.
+1,1.6,cluster sample,"A cluster sample divides the population into groups, randomly selects some whole groups, and includes all individuals in the selected groups."
+1,1.6,convenience sample,A convenience sample selects individuals who are easy to reach.
+1,1.6,random sample,A random sample uses chance to select individuals from the population.
+1,1.6,random sampling,Random sampling supports generalization by using chance to reduce selection bias in choosing individuals from the population. Random sampling helps determine whether conclusions from a study can be generalized to a larger population.
+1,1.6,representative sample,A representative sample reflects the population well enough to support reasonable conclusions about that population.
+1,1.6,sampling method,A sampling method is the procedure used to select individuals from a population.
+1,1.6,simple random sample,A simple random sample gives every possible sample of the same size an equal chance of being selected.
+1,1.6,stratified random sample,A stratified random sample divides the population into groups with a shared characteristic and randomly selects individuals from every group.
+1,1.6,systematic random sample,A systematic random sample starts at a randomly chosen point and then selects individuals according to a regular pattern.
+1,1.6,voluntary response sample,A voluntary response sample consists of people who choose themselves to participate.
+1,1.7,leading question,A leading question is worded in a way that encourages a particular response.
+1,1.7,nonrandom sampling,Nonrandom sampling uses a method other than chance to select individuals and limits the ability to make a valid generalization.
+1,1.7,nonresponse bias,Nonresponse bias may occur when people who respond differ in important ways from people who do not respond.
+1,1.7,question wording bias,Question wording bias occurs when the wording of a survey question influences the responses.
+1,1.7,response bias,"Response bias occurs when answers are inaccurate because of wording, pressure, memory, embarrassment, dishonesty, or another factor affecting the response."
+1,1.7,sampling bias,Sampling bias occurs when the method of selecting the sample tends to favor certain outcomes.
+1,1.7,self-report question,A self-report question asks people to report information about themselves.
+1,1.7,undercoverage bias,Undercoverage bias may occur when part of the population is left out or less likely to be selected by the sampling method.
+1,1.7,valid generalization,A valid generalization is a conclusion about a population that is supported by a sampling method likely to represent that population.
+1,1.8,blinding,"Blinding prevents participants, researchers, or both from knowing which treatment was assigned."
+1,1.8,blocking,Blocking separates variation caused by the blocking variable from other variation so that treatment comparisons are more precise.
+1,1.8,blocking variable,A blocking variable is a variable used to form blocks because it is expected to affect the response.
+1,1.8,comparison group,A comparison group is a group used as a reference for judging the effect of another treatment.
+1,1.8,completely randomized design,A completely randomized design randomly assigns all experimental units to treatments.
+1,1.8,confounding variable,A confounding variable is a variable whose effect on the response cannot be separated from the effect of the treatment.
+1,1.8,control group,A control group provides a comparison group that does not receive the active treatment or receives a baseline treatment.
+1,1.8,direct control,Direct control means holding other variables constant when possible.
+1,1.8,double-blind experiment,A double-blind experiment is an experiment in which neither the participants nor the interacting researchers know which treatment was assigned.
+1,1.8,experimental unit,"An experimental unit is the individual object, animal, or person receiving a treatment."
+1,1.8,explanatory variable,The explanatory variable is the variable that may explain or cause changes in the response variable.
+1,1.8,extraneous variable,An extraneous variable is a variable believed to affect the response but not serving as the explanatory variable being studied.
+1,1.8,justified cause-and-effect conclusion,A cause-and-effect conclusion is justified when a well-designed experiment uses random assignment to reduce confounding between the explanatory and response variables.
+1,1.8,matched pairs design,"A matched pairs design compares two treatments within naturally paired units or within the same unit, with treatment assignment or order randomized."
+1,1.8,placebo,A placebo is an inactive treatment used to account for the placebo effect.
+1,1.8,placebo effect,The placebo effect is the difference between the average response to a placebo and the average response to no treatment.
+1,1.8,random assignment,Random assignment uses chance to assign experimental units to treatments. Random assignment supports cause-and-effect conclusions by reducing the potential effect of confounding variables.
+1,1.8,randomized block design,A randomized block design groups similar experimental units into blocks before randomly assigning treatments within each block.
+1,1.8,replication,Replication means using enough experimental units in each treatment group to reduce the effect of chance variation.
+1,1.8,response variable,The response variable is the outcome measured in a study or experiment.
+1,1.8,single-blind experiment,A single-blind experiment is an experiment in which either the participants or the interacting researchers do not know which treatment was assigned.
+1,1.8,treatment,A treatment is a condition imposed on experimental units.
+1,1.9,causal claim,A causal claim states that changes in one variable cause changes in another variable.
+1,1.9,descriptive claim,A descriptive claim summarizes the data that were actually collected.
+1,1.9,overclaim,An overclaim is a conclusion that is stronger than the study design or data can support.
+1,1.9,random sampling versus random assignment,"Random sampling supports generalization to a population, while random assignment supports cause-and-effect conclusions in an experiment."
+1,1.9,strongest claim justified,The strongest claim justified is the conclusion that matches the study design without going beyond what the data collection method supports.
+2,2.1,association between categorical variables,An association exists when the distribution of one variable changes across the categories of another variable.
+2,2.1,conditional distribution,A conditional distribution describes how the categories of one variable are distributed within a selected category of another variable.
+2,2.1,conditional relative frequency,A conditional relative frequency is calculated within a particular row or column group.
+2,2.1,joint frequency,A joint frequency is the count of observations in one specific combination of categories for two categorical variables.
+2,2.1,joint relative frequency,A joint relative frequency is a joint frequency divided by the total number of observations.
+2,2.1,marginal frequency,A marginal frequency is a total for one row or one column in a two-way table.
+2,2.1,marginal relative frequency,A marginal relative frequency is a row or column total divided by the total number of observations.
+2,2.1,segmented bar graph,A segmented bar graph displays conditional distributions by dividing each bar into segments that represent relative frequencies within a group.
+2,2.1,side-by-side bar graph,A side-by-side bar graph displays frequencies or relative frequencies for categories of one variable separately for groups formed by another variable.
+2,2.1,two-way table,A two-way table summarizes data for two categorical variables.
+2,2.2,empirical probability,The empirical probability of an event is the proportion of simulated trials in which the event occurs.
+2,2.2,event,An event is a collection of outcomes.
+2,2.2,law of large numbers,"The law of large numbers says that for independent trials, as the number of trials increases, the long-run relative frequency gets closer and closer to a single value."
+2,2.2,outcome,An outcome is the result of one trial of a random process.
+2,2.2,random process,A random process has outcomes that are uncertain in the short run but predictable in the long run.
+2,2.2,simulation,"A simulation imitates a random process using a model such as random digits, cards, dice, coins, physical objects, or technology."
+2,2.2,trial,A trial is one repetition of a simulation.
+2,2.3,addition rule for mutually exclusive events,"If A and B are mutually exclusive, then P(A or B) = P(A) + P(B)."
+2,2.3,complement,The complement of event A is the event that A does not occur.
+2,2.3,complement rule,The complement rule says P(not A) = 1 - P(A).
+2,2.3,equally likely outcomes,Equally likely outcomes have the same chance of occurring.
+2,2.3,intersection,The intersection of events A and B is the event that both A and B occur.
+2,2.3,mutually exclusive events,Two events are mutually exclusive if they cannot occur at the same time.
+2,2.3,probability,Probability is a number between 0 and 1 that describes how likely an event is to occur.
+2,2.3,sample space,A sample space is the set of all possible nonoverlapping outcomes of a random process.
+2,2.4,conditional probability,A conditional probability is the probability of an event given that another event has occurred.
+2,2.4,general addition rule,The general addition rule says P(A or B) = P(A) + P(B) - P(A and B).
+2,2.4,general multiplication rule,The general multiplication rule says P(A and B) = P(A)P(B | A).
+2,2.4,independent events,Two events are independent if knowing that one event occurred does not change the probability of the other event.
+2,2.4,P(A | B),P(A | B) means the probability of event A given that event B has occurred.
+2,2.4,union,"The union of events A and B is the event that A occurs, B occurs, or both occur."
+2,2.5,discrete random variable,A discrete random variable has a countable set of possible values.
+2,2.5,expected value,Expected value is the long-run average value of a random variable over many repetitions.
+2,2.5,probability distribution,A probability distribution gives the possible values of a random variable and their probabilities.
+2,2.5,random variable,A random variable assigns a numerical value to each outcome of a random process.
+2,2.5,standard deviation of a random variable,The standard deviation of a random variable measures the typical distance of values from the expected value.
+2,2.6,binomial distribution,A binomial distribution gives the probabilities for the possible numbers of successes in a binomial setting.
+2,2.6,binomial probability formula,"For X binomial with n trials and probability p, P(X = k) = C(n,k)p^k(1-p)^(n-k)."
+2,2.6,binomial random variable,A binomial random variable counts the number of successes in n independent trials with the same probability of success on each trial.
+2,2.6,binomial setting,"A binomial setting has a fixed number of trials, two possible outcomes on each trial, independent trials, and the same probability of success on each trial."
+2,2.6,failure,A failure is any outcome that is not the success in a binomial setting.
+2,2.6,success,A success is the outcome being counted in a binomial setting.
+2,2.7,68-95-99.7 rule,"The 68-95-99.7 rule says that in an approximately normal distribution, about 68%, 95%, and 99.7% of values are within 1, 2, and 3 standard deviations of the mean, respectively."
+2,2.7,area under the curve,"For a continuous random variable, probability is represented by area under the curve."
+2,2.7,continuous random variable,A continuous random variable can take values along an interval.
+2,2.7,density curve,A density curve is a curve whose total area is 1 and whose areas represent probabilities.
+2,2.7,normal distribution,A normal distribution is bell-shaped and symmetric and is described by its mean and standard deviation.
+2,2.7,standard normal distribution,The standard normal distribution is the normal distribution with mean 0 and standard deviation 1.
+2,2.8,center of a sampling distribution,The center of a sampling distribution tells whether the statistic tends to estimate the parameter correctly.
+2,2.8,Central Limit Theorem,"The Central Limit Theorem says that for large random samples, the sampling distribution of sample means is approximately normal, even if the population distribution is not normal."
+2,2.8,sampling distribution,A sampling distribution is the distribution of a statistic from many random samples of the same size.
+2,2.8,standard error,The standard error is the standard deviation of a sampling distribution.
+2,2.8,variability of a sampling distribution,The variability of a sampling distribution describes how much the statistic changes from sample to sample.
+3,3.1,approximately normal sampling distribution of p-hat,The sampling distribution of p-hat is approximately normal when the Large Counts condition is met.
+3,3.1,bias,Bias is a systematic tendency for an estimator to overestimate or underestimate the parameter.
+3,3.1,center of the sampling distribution of p-hat,The center of the sampling distribution of p-hat is the population proportion p.
+3,3.1,estimator,An estimator is a statistic used to estimate a population parameter.
+3,3.1,good estimator,A good estimator has low bias and low variability.
+3,3.1,Large Counts condition,The Large Counts condition for a sample proportion requires both np >= 10 and n(1 - p) >= 10.
+3,3.1,p,The symbol p represents the population proportion.
+3,3.1,p-hat,The symbol p-hat represents the sample proportion.
+3,3.1,point estimate,A point estimate is a single-number estimate of a population parameter.
+3,3.1,population proportion,A population proportion is the true proportion of individuals in a population with a certain characteristic.
+3,3.1,sample proportion,A sample proportion is the proportion of individuals in a sample with a certain characteristic and is often used to estimate a population proportion.
+3,3.1,sampling distribution of a sample proportion,A sampling distribution of a sample proportion is the distribution of p-hat values from many random samples of the same size.
+3,3.1,sampling variability,Sampling variability is the natural variation in a statistic from sample to sample.
+3,3.1,standard deviation of p-hat,The standard deviation of p-hat is sqrt(p(1 - p)/n) when the 10% condition is met.
+3,3.1,surprising sample proportion,A surprising sample proportion is a p-hat value that would be unlikely to occur by chance if a claimed population proportion were true.
+3,3.1,variability of an estimator,The variability of an estimator describes how much the statistic changes from sample to sample.
+3,3.2,conditions for a proportion interval,"A confidence interval for a proportion requires random data, the 10% condition, and the Large Counts condition."
+3,3.2,confidence interval,A confidence interval gives a range of plausible values for a population parameter.
+3,3.2,confidence level,A confidence level describes the long-run success rate of the interval method.
+3,3.2,margin of error,A margin of error describes how far the estimate extends on either side.
+3,3.2,one-proportion z-interval,A one-proportion z-interval estimates a population proportion p.
+3,3.2,plausible claim,A claim is plausible if the claimed value is inside the confidence interval.
+3,3.3,alternative hypothesis,The alternative hypothesis states the direction or type of evidence being tested.
+3,3.3,hypothesis test,A hypothesis test evaluates evidence against a claim about a parameter.
+3,3.3,null hypothesis,"The null hypothesis states the claim being tested, usually a statement of no change or no difference."
+3,3.3,one-proportion z-test,A one-proportion z-test evaluates a claim about a population proportion p.
+3,3.3,p-value,"A p-value is the probability, assuming the null hypothesis is true, of getting a result as extreme as or more extreme than the observed result."
+3,3.3,significance level,The significance level is the cutoff for deciding whether results are statistically significant.
+3,3.3,statistically significant,A result is statistically significant if the p-value is less than the significance level.
+3,3.3,test statistic,A test statistic measures how far the sample statistic is from the null value in standard error units.
+3,3.4,effect of alpha,A smaller alpha reduces the chance of a Type I error but can increase the chance of a Type II error.
+3,3.4,false alarm,A false alarm is an ordinary-language description of a Type I error.
+3,3.4,missed detection,A missed detection is an ordinary-language description of a Type II error.
+3,3.4,power,Power is the probability that a test correctly rejects a false null hypothesis.
+3,3.4,Type I error,A Type I error occurs when we reject a true null hypothesis.
+3,3.4,Type II error,A Type II error occurs when we fail to reject a false null hypothesis.
+3,3.5,conditions for a two-proportion interval,"A two-proportion interval requires random data, independent samples or groups, the 10% condition, and the Large Counts condition for both groups."
+3,3.5,difference of population proportions,The difference of population proportions is the parameter p1 - p2.
+3,3.5,difference of sample proportions,A difference of sample proportions estimates a difference of population proportions.
+3,3.5,standard error for a two-proportion interval,The standard error for a two-proportion interval uses the two sample proportions separately.
+3,3.5,two-proportion z-interval,A two-proportion z-interval estimates the difference between two population proportions.
+3,3.5,zero in a confidence interval,"If 0 is in a confidence interval for a difference, 0 is a plausible value for the difference."
+3,3.6,observed difference in sample proportions,The observed difference in sample proportions is p-hat1 - p-hat2.
+3,3.6,pooled proportion,The pooled proportion combines successes from both groups under the assumption that the null hypothesis is true.
+3,3.6,standard error for a two-proportion test,The standard error for a two-proportion z-test uses the pooled proportion.
+3,3.6,two-proportion z-test,A two-proportion z-test evaluates a claim about p1 - p2.
+3,3.7,chi-square statistic,The chi-square statistic adds the contributions (observed - expected)^2 / expected across cells.
+3,3.7,chi-square test,A chi-square test compares observed counts to expected counts.
+3,3.7,chi-square test for homogeneity,A chi-square test for homogeneity compares the distribution of one categorical variable across two or more populations or treatments.
+3,3.7,chi-square test for independence,A chi-square test for independence tests whether two categorical variables are associated in one population.
+3,3.7,degrees of freedom for a two-way table,The degrees of freedom for a two-way table are (rows - 1)(columns - 1).
+3,3.7,expected counts,Expected counts are the counts we would expect if the null hypothesis were true.
+3,3.7,observed counts,Observed counts are the actual counts from the data.
+4,4.1,10% condition,The 10% condition requires the population size to be at least 10 times the sample size when sampling without replacement.
+4,4.1,approximately normal sampling distribution of x-bar,The sampling distribution of x-bar is approximately normal when the population distribution is normal or when the sample size is sufficiently large.
+4,4.1,effect of sample size,Increasing the sample size decreases the variability of the sampling distribution of x-bar.
+4,4.1,large sample condition,"The large sample condition says that if n >= 30, the sampling distribution of x-bar can often be modeled approximately by a normal distribution."
+4,4.1,mean of the sampling distribution of x-bar,The mean of the sampling distribution of x-bar is equal to the population mean mu when the sampled values are independent.
+4,4.1,normal population condition,"The normal population condition says that if the population distribution is normal, then the sampling distribution of x-bar is normal for any sample size."
+4,4.1,normal probability graph,A normal probability graph is a visual display used to judge whether data are reasonably consistent with a normal distribution.
+4,4.1,population mean,"The population mean, mu, is the true mean value of a quantitative variable for the entire population."
+4,4.1,population standard deviation,"The population standard deviation, sigma, measures the variability of individual values in the population."
+4,4.1,randomization condition,"The randomization condition requires that the data come from a random sample or randomized experiment, as appropriate."
+4,4.1,sample mean,"The sample mean, x-bar, is the mean of the quantitative values in one sample."
+4,4.1,sampling distribution of a sample mean,A sampling distribution of a sample mean is the distribution of x-bar values from many random samples of the same size.
+4,4.1,standard deviation of x-bar,The standard deviation of x-bar is sigma / sqrt(n) when the sampled values are independent.
+4,4.2,analyzing differences,"For paired data, we analyze the differences, not the two original lists separately."
+4,4.2,conditions for a t-interval,"A t-interval requires random data, the 10% condition when sampling without replacement, and an approximately normal sampling distribution."
+4,4.2,degrees of freedom for one-sample or paired t,The degrees of freedom for a one-sample or paired t-procedure are usually n - 1.
+4,4.2,one-sample t-interval,A one-sample t-interval estimates a population mean.
+4,4.2,paired design,A paired design produces two related measurements for each individual or matched pair.
+4,4.2,paired t-interval,A paired t-interval estimates a population mean difference.
+4,4.2,t-distribution,The t-distribution is used when the population standard deviation is unknown.
+4,4.2,t-interval,A t-interval estimates a population mean or a mean difference.
+4,4.3,null hypothesis for a mean,The null hypothesis states a claimed value for a population mean or population mean difference.
+4,4.3,one-sample t-test,A one-sample t-test evaluates a claim about a population mean.
+4,4.3,paired t-test,A paired t-test evaluates a claim about a population mean difference.
+4,4.3,paired-data test,"For paired data, the hypothesis test is performed on the differences."
+4,4.3,t test statistic,A t test statistic measures how far the sample mean is from the null value in standard error units.
+4,4.4,degrees of freedom for two-sample t,The degrees of freedom for a two-sample t-procedure are found by technology or by a conservative method.
+4,4.4,difference of population means,The difference of population means is the parameter mu1 - mu2.
+4,4.4,difference of sample means,A difference of sample means estimates a difference of population means.
+4,4.4,independent samples,Independent samples are samples whose observations are not paired or linked across groups.
+4,4.4,standard error for a two-sample t-interval,The standard error for a two-sample t-interval uses the sample standard deviations and sample sizes from both groups.
+4,4.4,two-sample t-interval,A two-sample t-interval estimates the difference between two population means.
+4,4.5,null hypothesis for two means,The null hypothesis for a two-sample t-test often states mu1 - mu2 = 0.
+4,4.5,small p-value,A small p-value gives evidence against the null hypothesis.
+4,4.5,two-sample t statistic,The two-sample t statistic compares the observed difference in sample means to the null difference.
+4,4.5,two-sample t-test,A two-sample t-test evaluates a claim about the difference between two population means.
+5,5.1,bivariate quantitative data,Bivariate quantitative data consist of paired observations from two quantitative variables measured on the same individuals or units.
+5,5.1,describing a scatterplot,"Describing a scatterplot means identifying form, direction, strength, and unusual features in context."
+5,5.1,form of a scatterplot,The form describes the overall shape of the relationship in a scatterplot.
+5,5.1,linear relationship,A linear relationship follows an approximately straight-line pattern in a scatterplot.
+5,5.1,moderate association,A moderate association has points that somewhat follow the overall pattern but still show noticeable scatter.
+5,5.1,negative association or correlation,A negative association means that larger values of the explanatory variable tend to occur with smaller values of the response variable.
+5,5.1,nonlinear relationship,A nonlinear relationship follows a curved or other non-straight pattern in a scatterplot.
+5,5.1,ordered pair,An ordered pair records the two quantitative values measured for one observational unit.
+5,5.1,positive association or correlation,A positive association means that larger values of the explanatory variable tend to occur with larger values of the response variable.
+5,5.1,scatterplot,A scatterplot displays the relationship between two quantitative variables by plotting each observational unit as a point.
+5,5.1,strength,The strength describes how closely the points in a scatterplot follow the overall pattern.
+5,5.1,strong association,A strong association has points that closely follow the overall pattern.
+5,5.1,weak association,A weak association has points that are widely scattered around the overall pattern.
+5,5.2,correlation,Correlation describes the strength and direction of the linear association between two quantitative variables.
+5,5.2,correlation coefficient,"The correlation coefficient, r, is a unit-free number between -1 and 1 that summarizes the strength and direction of a linear association between two quantitative variables."
+5,5.2,correlation does not imply causation,Correlation does not imply causation means that a linear association between two variables does not by itself prove that changes in one variable cause changes in the other.
+5,5.2,linear model caution,A linear model caution is the reminder that a correlation coefficient close to -1 or 1 does not automatically mean that a linear model is appropriate.
+5,5.2,perfect linear association,A perfect linear association occurs when r = 1 or r = -1 and all points fall exactly on a straight-line pattern.
+5,5.3,extrapolation,Extrapolation means using a model to predict outside the range of observed data.
+5,5.3,least-squares regression line,A least-squares regression line is the line that minimizes the sum of squared residuals.
+5,5.3,predicted response,"The predicted response, written y-hat, is the value predicted by a regression model."
+5,5.3,prediction,A prediction uses the regression line to estimate a response value.
+5,5.3,regression line,A regression line is a model used to predict a response variable from an explanatory variable.
+5,5.3,slope of a regression line,The slope tells the predicted change in the response variable for a one-unit increase in the explanatory variable.
+5,5.3,y-intercept,The y-intercept is the predicted response when the explanatory variable equals 0.
+5,5.4,negative residual,A negative residual means the observed value is below the regression line.
+5,5.4,nonconstant variability,Changing spread in a residual plot may suggest nonconstant variability.
+5,5.4,positive residual,A positive residual means the observed value is above the regression line.
+5,5.4,residual,A residual is the difference between the observed response and the predicted response.
+5,5.4,residual formula,The formula for a residual is observed - predicted.
+5,5.4,residual plot,A residual plot displays residuals against the explanatory variable.
+5,5.4,residual plot pattern,A curved pattern in a residual plot suggests that a linear model may not be appropriate.
+5,5.5,coefficient of determination,"The coefficient of determination, r-squared, gives the percent of variation in the response variable explained by the linear model using the explanatory variable."
+5,5.5,high r-squared caution,A high r-squared does not prove causation.
+5,5.5,regression output,"Regression output often includes the equation, r, r-squared, and residual information."
+5,5.5,standard deviation of the residuals,The standard deviation of the residuals measures the typical size of prediction errors.
+5,5.5,useful regression model,"A useful regression model should have a reasonable scatterplot, a random residual plot, and meaningful interpretations."
